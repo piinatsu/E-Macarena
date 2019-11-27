@@ -7,9 +7,14 @@ var url = require('url');
 http.createServer(function (req, res) {
   var q = url.parse(req.url, true);
   var filename = '.' + q.pathname;
+
+  /* handles 404 error when accessing root (localhost:8080/) 
+  and reroute to index.html */
   if (filename === './') {
     filename = './index.html'
   } else {
+    /* in case when not accessing root,
+     don't add another .html to the string */
     filename = filename + '.html';
   }
   console.log(filename);
