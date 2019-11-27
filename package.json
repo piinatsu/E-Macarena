@@ -1,7 +1,7 @@
 {
   "name": "nodedemo",
-  "version": "1.0.0",
-  "description": "",
+  "version": "12.13.1",
+  "description": "Node Intro",
   "main": "demoo.js",
   "dependencies": {},
   "devDependencies": {
@@ -16,6 +16,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Adrienne",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piinatsu/E-Macarena.git"
+  },
+  "bugs": {
+    "url": "https://github.com/piinatsu/E-Macarena/issues"
+  },
+  "homepage": "https://github.com/piinatsu/E-Macarena#readme"
 }
