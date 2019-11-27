@@ -30,6 +30,6 @@ http.createServer(function (req, res) {
 
     return res.end();
   })
-}).listen(8080);
+}).listen(PORT);
 
 console.log('Server listening on port 8080...');
