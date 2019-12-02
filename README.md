@@ -1,2 +1,2 @@
 # E-Macarena
- Node Intro
+ Barebone node.js app hosted on heroku.com
